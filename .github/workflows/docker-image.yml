@@ -30,10 +30,12 @@ jobs:
     - name: Build Docker image
       run: |
         docker build -t victormedrano/docker-gralphql:0.0.2 .
+        docker build -t victormedrano/docker-gralphql:latest .
 
     - name: Push Docker image
       run: |
         docker push victormedrano/docker-gralphql:0.0.2
+        docker push victormedrano/docker-gralphql:latest
       
         
         
