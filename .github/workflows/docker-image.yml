@@ -33,7 +33,7 @@ jobs:
 
     - name: Push Docker image
       run: |
-        docker push victormedrano/docker-gralphql:0.0.2 .
+        docker push victormedrano/docker-gralphql:0.0.2
       
         
         
